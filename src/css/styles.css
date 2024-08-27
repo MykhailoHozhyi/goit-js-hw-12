@@ -49,6 +49,10 @@
   letter-spacing: 0.64px;
 }
 
+.search-picture-btn:hover {
+  background: #6c8cff;
+}
+
 .gallery {
   width: 1128px;
   display: flex;
@@ -126,6 +130,11 @@
   }
 }
 
-.loader.is-hidden {
+.load-more-btn {
+  display: block;
+  margin: 32px auto 0 auto;
+}
+
+.is-hidden {
   display: none;
 }
